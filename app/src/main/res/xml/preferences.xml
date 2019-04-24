@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+            android:defaultValue="@bool/my_bool_setting_default"
+            android:key="@string/my_bool_setting_key"
+            android:title="@string/my_bool_setting_title"/>
+
+    <EditTextPreference
+            android:key="@string/my_text_setting_key"
+            android:title="@string/my_text_setting_title"
+            android:summary="@string/my_text_setting_summary"
+            android:dialogTitle="@string/my_text_setting_title"
+            android:defaultValue="@string/my_text_setting_default"/>
+
+    <ListPreference
+            android:key="@string/my_list_setting_key"
+            android:title="@string/my_list_setting_title"
+            android:summary="@string/my_list_setting_summary"
+            android:dialogTitle="@string/my_list_setting_title"
+            android:entries="@array/my_list_setting_entries_key"
+            android:entryValues="@array/my_list_setting_entries_value"
+            android:defaultValue="@string/my_list_setting_default"/>
+
+</androidx.preference.PreferenceScreen>

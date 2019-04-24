@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">preference setting</string>
+    <string name="bool_data">My Bool Setting is : %1$s</string>
+    <string name="text_data">My Text Setting is : %1$s</string>
+    <string name="list_data">My List Setting is : %1$s</string>
+</resources>

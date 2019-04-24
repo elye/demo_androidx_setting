@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- my bool setting -->
+    <string name="my_bool_setting_title">My Boolean Setting</string>
+    <string name="my_bool_setting_key">my_bool_setting</string>
+    <bool name="my_bool_setting_default">true</bool>
+
+    <!-- my text setting -->
+    <string name="my_text_setting_title">My Text Setting</string>
+    <string name="my_text_setting_summary">My Text Setting Summary</string>
+    <string name="my_text_setting_key">my_text_setting</string>
+    <string name="my_text_setting_default">Default Text</string>
+
+    <!-- my list setting -->
+    <string name="my_list_setting_title">My List Setting</string>
+    <string name="my_list_setting_summary">My List Setting Summary: %s</string>
+    <string name="my_list_setting_key">my_list_setting</string>
+    <string-array name="my_list_setting_entries_key">
+        <item>None</item>
+        <item>Item 1</item>
+        <item>item 2</item>
+    </string-array>
+    <string-array name="my_list_setting_entries_value">
+        <item>item-0</item>
+        <item>item-1</item>
+        <item>item-2</item>
+    </string-array>
+    <string name="my_list_setting_default">item-1</string>
+
+</resources>
